@@ -1,14 +1,26 @@
 import { useState } from 'react'
+import "./components/style.css";
 import Nav from './components/Nav';
-import footer from './components/footer'
+import Footers from './components/Footer';
 
 
 function App() {
   return (
     <>
-      <div w-full h-screen>
+      <div className='w-full h-screen' >
         <Nav/>
-        <footer/>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <h1>CONTENT FOR FOOTER</h1>
+        <Footers/>
       </div>
     </>
   )
