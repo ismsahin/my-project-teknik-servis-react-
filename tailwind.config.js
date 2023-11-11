@@ -8,7 +8,11 @@ export default {
     extend: {
       colors: {
         ferrari_red: '#ff2800',
+        dark_mode: '#3d3d3d',
       },
+      backgroundImage: {
+        
+      }
     },
   },
   plugins: [],
