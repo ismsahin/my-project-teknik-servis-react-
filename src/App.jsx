@@ -9,33 +9,11 @@ import MusteriYorum from './components/musteriYorum'
 function App() {
   return (
     <>
-      <div className='w-full h-screen bg-gray-400' >
+      <div className=' bg-gray-100' >
         <Nav/>
         <ServisDestek/>
         <Guvenilirlik/>
         <MusteriYorum/>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
-        <h1>CONTENT FOR FOOTER</h1>
         
         <Footer/>
       </div>

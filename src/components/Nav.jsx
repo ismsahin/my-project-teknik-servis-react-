@@ -29,7 +29,7 @@ const Nav = () => {
                     {
                         Links.map((link) => (
                             <li key={link.name} className='xl:ml-8 text-xl xl:my-0 my-7'>
-                                <a href={link.link} className='hover:text-ferrari_red border rounded-xl hover:border-ferrari_red hover:rounded-xl p-2 px-3 '>{link.name}</a>
+                                <a href={link.link} className='hover:text-ferrari_red border rounded-xl border-white hover:border-ferrari_red hover:rounded-xl p-2 px-3 '>{link.name}</a>
                             </li>
                         ))
                     }

@@ -9,10 +9,12 @@ export default {
       colors: {
         ferrari_red: '#ff2800',
         dark_mode: '#3d3d3d',
+        sky: '##87CEEB',
+        cyan: '##00FFFF',
       },
       backgroundImage: {
         
-      }
+       },
     },
   },
   plugins: [],
