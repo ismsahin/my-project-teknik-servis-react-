@@ -18,3 +18,7 @@ body {
 .min-h-390 {
   min-height: 390px;
 }
+
+.min-h-450 {
+  min-height: 450px;
+}
