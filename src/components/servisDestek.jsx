@@ -14,8 +14,8 @@ const servisDestek = () => {
                     <div className='px-2 mt-0 xl:text-xl m-auto text-white  bg-dark_mode rounded-b-md ms-0 me-10 bg-opacity-75 text-sm'> Merkez Servis Türkiyenin en geniş servis ağına sahipdir. Lg  Beyaz Eşyalarınız İçin İhtiyacınız olan servis hizmetini Merkez Servisten alın, size en yakın servisi 30 dk içinde yönlendirelim. </div>
                     <div className=''></div>
                     <div className='mx-auto ms-0 my-0 grid xl:grid-cols-2 md:grid-cols-1'>
-                        <a href="tel:08503056090" className='text-white max-h-16  bg-indigo-600 font-medium rounded-lg text-sm xl:text-lg px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>SERVİS ÇAĞIR</a>
-                        <a href="tel:08503056090" className='text-white max-h-16  bg-gray-500 font-medium rounded-lg text-sm xl:text-lg px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>0850 850 8550</a>
+                        <a href="tel:08508508558" className='text-white max-h-16  bg-indigo-600 font-medium rounded-lg text-sm xl:text-lg px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>SERVİS ÇAĞIR</a>
+                        <a href="tel:08508508558" className='text-white max-h-16  bg-gray-500 font-medium rounded-lg text-sm xl:text-lg px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>0850 850 8550</a>
                     </div>
 
                 </div>

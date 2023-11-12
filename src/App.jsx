@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import "./components/style.css"
 import Nav from './components/Nav'
-import Footer from './components/Footer'
+import Footers from './components/Footers'
 import ServisDestek from './components/servisDestek'
 import Guvenilirlik from './components/Guvenilirlik'
 import MusteriYorum from './components/musteriYorum'
@@ -15,7 +15,7 @@ function App() {
         <Guvenilirlik/>
         <MusteriYorum/>
         
-        <Footer/>
+        <Footers/>
       </div>
     </>
   )

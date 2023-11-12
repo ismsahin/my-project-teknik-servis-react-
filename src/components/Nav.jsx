@@ -6,8 +6,8 @@ import repairLogo from '../image/img/repair2.png'
 const Nav = () => {
     let Links = [
         { name: "Anasayfa", link: "/" },
-        { name: "Eşya Servisi", link: "/" },
         { name: "Teknik Servis", link: "/" },
+        { name: "Müşteri Yorumları", link: "/" },
         { name: "Hakkımızda", link: "/" },
         { name: "İletişim", link: "/" },
     ];

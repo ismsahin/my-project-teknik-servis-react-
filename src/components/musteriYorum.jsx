@@ -4,7 +4,7 @@ const musteriYorum = () => {
   return (
     <div className='object-cover bg-cover bg-center xl:container bg-[url("https://images.pexels.com/photos/9821386/pexels-photo-9821386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")] bg-center'>
 
-      <div className=" w-full min-h-screen gap-4 flex-wrap flex justify-center items-center">
+      <div className=" w-full min-h-screen gap-4 flex-wrap flex justify-center items-center p-6">
 
 
         <div className="w-60 p-2 bg-white rounded-xl transition-all hover:-translate-y-2 duration-300 shadow-lg shadow-black hover:shadow-2xl">
