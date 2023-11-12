@@ -13,9 +13,9 @@ const elektronikServis = () => {
           </div>
 
           <div className='bg-gray-400 rounded-3xl'>
-            <p className='text-white flex items-center p-1 text-center h-96 max-w-lg mt-1'>Elektronik cihazlarınızın tamiratı için güvenilir ve profesyonel bir işyeri arıyorsanız, doğru yerdesiniz! İşletmemiz, deneyimli teknisyen kadrosuyla beraber her türlü elektronik cihazınızın sorunlarını onarırken, size kusursuz bir hizmet sunmaktadır.
-              Müşteri memnuniyeti bizim için en önemli önceliktir. Her marka ve modele uygun tamir hizmetleri sunmaktayız. Televizyonlar, bilgisayarlar, oyun konsolları, tabletler, ses sistemleri ve daha birçok elektronik cihaz için tamiratlar gerçekleştiriyoruz. Ekran değişimi, anakart onarımı, güç kaynağı değişimi ve yazılım sorunları gibi farklı hizmetlerimiz bulunmaktadır.
-              Uzman teknisyenlerimiz, son teknoloji ekipmanlarla donatılmış atölyemizde çalışmalarını sürdürmektedir. Tamir işlemleri sırasında özenle orijinal yedek parçalar kullanıyoruz ve cihazınızın fabrika ayarlarına geri dönmesini sağlıyoruz. Tamir süreci boyunca size düzenli bilgi aktararak, her adımda ne olduğunu anlamanızı ve memnuniyetinizi sağlamayı hedefliyoruz. Fiyatlandırma konusunda da rekabetçi bir politika izliyoruz. Hizmetlerimizi makul fiyatlarla sunarak, müşterilerimize bütçe dostu bir hizmet sunuyoruz. Tamirat sonrasında cihazınızın tekrar performansını ve işlevselliğini geri kazanmasını sağlayarak, size uzun vadeli bir çözüm sunuyoruz.
+            <p className='text-white flex items-center p-1 h-96 max-w-lg mt-1'>Elektronik cihazlarınızın tamiratı için güvenilir ve profesyonel bir işyeri arıyorsanız, doğru yerdesiniz! İşletmemiz, deneyimli teknisyen kadrosuyla beraber her türlü elektronik cihazınızın sorunlarını onarırken, size kusursuz bir hizmet sunmaktadır.
+              Müşteri memnuniyeti bizim için en önemli önceliktir. Her marka ve modele uygun tamir hizmetleri sunmaktayız.
+               Fiyatlandırma konusunda da rekabetçi bir politika izliyoruz. Hizmetlerimizi makul fiyatlarla sunarak, müşterilerimize bütçe dostu bir hizmet sunuyoruz. 
             </p>
           </div>
         </div>
@@ -27,9 +27,9 @@ const elektronikServis = () => {
             <img className="h-64 object-cover w-96 rounded-xl" src="https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
             <div className="p-2">
 
-              <h2 className="font-bold text-lg mb-2 ">Beyaz Eşya Servisi</h2>
+              <h2 className="font-bold text-lg mb-2 ">Elektronik Eşya Servisi</h2>
 
-              <p className="text-sm text-gray-600">İhtiyacınız olan servis hizmetini Merkez Servisten alın, size en yakın servisi 30 dk içinde yönlendirelim.</p>
+              <p className="text-sm text-gray-600">Televizyonlar, bilgisayarlar, oyun konsolları, tabletler, ses sistemleri ve daha birçok elektronik cihaz için tamiratlar gerçekleştiriyoruz. Ekran değişimi, anakart onarımı, güç kaynağı değişimi ve yazılım sorunları gibi farklı hizmetlerimiz bulunmaktadır.</p>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const elektronikServis = () => {
 
               <h2 className="font-bold text-lg mb-2 ">Kombi Servisi</h2>
 
-              <p className="text-sm text-gray-600">İhtiyacınız olan servis hizmetini Merkez Servisten alın, size en yakın servisi 30 dk içinde yönlendirelim.</p>
+              <p className="text-sm text-gray-600">Uzman teknisyenlerimiz, son teknoloji ekipmanlarla donatılmış atölyemizde çalışmalarını sürdürmektedir. Tamir işlemleri sırasında özenle orijinal yedek parçalar kullanıyoruz ve cihazınızın fabrika ayarlarına geri dönmesini sağlıyoruz.  </p>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ const elektronikServis = () => {
 
               <h2 className="font-bold text-lg mb-2 ">Klima Servisi</h2>
 
-              <p className="text-sm text-gray-600">İhtiyacınız olan servis hizmetini Merkez Servisten alın, size en yakın servisi 30 dk içinde yönlendirelim.</p>
+              <p className="text-sm text-gray-600">Tamir süreci boyunca size düzenli bilgi aktararak, her adımda ne olduğunu anlamanızı ve memnuniyetinizi sağlamayı hedefliyoruz. Tamirat sonrasında cihazınızın tekrar performansını ve işlevselliğini geri kazanmasını sağlayarak, size uzun vadeli bir çözüm sunuyoruz.</p>
             </div>
           </div>
 
