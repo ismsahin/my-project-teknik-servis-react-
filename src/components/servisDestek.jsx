@@ -3,9 +3,9 @@ import React from 'react'
 
 const servisDestek = () => {
     return (
-        <div className='xl:container '>
-            <div className='mt-6 w-full mx-auto h-150 object-cover bg-cover bg-center bg-[url("https://images.pexels.com/photos/7682340/pexels-photo-7682340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")]'>
-                <div className='  grid grid-cols-2 h-150 grid grid-rows-4 '>
+        <div className='xl:container'>
+            <div className='  w-full mx-auto h-150 object-cover bg-cover bg-center bg-[url("https://images.pexels.com/photos/7682340/pexels-photo-7682340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")]'>
+                <div className=' grid-cols-2 h-150 grid grid-rows-4 '>
                     <div className=''></div>
                     <div className=''></div>
                     <div className=''></div>

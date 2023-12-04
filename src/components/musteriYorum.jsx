@@ -2,7 +2,7 @@ import React from 'react'
 
 const musteriYorum = () => {
   return (
-    <div className='object-cover bg-cover bg-center xl:container bg-[url("https://images.pexels.com/photos/9821386/pexels-photo-9821386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")] bg-center'>
+    <div className=' object-cover bg-cover bg-center xl:container bg-[url("https://images.pexels.com/photos/9821386/pexels-photo-9821386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")] '>
 
       <div className=" w-full min-h-screen gap-4 flex-wrap flex justify-center items-center p-6">
 

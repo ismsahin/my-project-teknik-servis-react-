@@ -3,7 +3,7 @@ import React from 'react'
 const iletisim = () => {
   return (
     <div className=''>
-      <div className='w-full min-h-screen object-cover bg-cover bg-center bg-indigo-950'>
+      <div className=' bg-indigo-950'>
 
         <div className='  grid grid-cols-2 h-80 grid grid-rows-2 '>
           <div className=''></div>

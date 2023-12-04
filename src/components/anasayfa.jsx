@@ -8,11 +8,13 @@ import MusteriYorum from './musteriYorum'
 const anasayfa = () => {
   return (
     <>
-      
-      <ServisDestek />
-      <Guvenilirlik />
-      <MusteriYorum />
-      
+      <div className=''>
+        <ServisDestek />
+        <Guvenilirlik />
+        <MusteriYorum />
+      </div>
+
+
     </>
   )
 }
