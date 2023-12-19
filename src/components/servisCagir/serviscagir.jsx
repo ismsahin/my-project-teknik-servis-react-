@@ -101,7 +101,7 @@ const serviscagir = () => {
 
                 <div className=' my-auto sm:mx-auto md:ml-0 md:w-10/12'  >
                     <div className=" p-4 flex-wrap">
-                        <div className='px-2 mb-0  xl:text-4xl text-lg m-auto text-red_orange font-bold bg-dark_mode rounded-t-md ms-0 bg-opacity-75'>7/24 Müşteri Hizmetleri </div>
+                        <div className='px-2 mb-0  xl:text-4xl text-lg m-auto text-red_orange font-bold bg-dark_mode rounded-t-md ms-0 bg-opacity-75 text-center'>7/24 Müşteri Hizmetleri </div>
                         <div className='px-2 mt-0 xl:text-xl text-white  bg-dark_mode rounded-b-md bg-opacity-75 text-sm'> İhtiyacınız olan hehangi bir servis ihtiyacınız için en doğru çözüm için her zaman arayabilirsiniz. Sorularınızı yanıtlamak ve tamir için randevu oluşturmak için her zaman buradayız.
                         </div>
                         <div className='mx-auto me-0 my-0 grid xl:grid-cols-2 md:grid-cols-1'>
