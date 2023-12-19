@@ -1,11 +1,11 @@
 import Item from "./Item";
-import { İLETİŞİM, SERVİS, KURUMSAL } from "./Menus";
+import { DESTEK, SERVİS, Biz_Kimiz } from "./Menus";
 const ItemsContainer = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16">
-      <Item Links={İLETİŞİM} title="İLETİŞİM" />
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:px-8 px-5 py-16 sm:max-w-6xl mx-auto">
+      <Item Links={DESTEK} title="DESTEK" />
       <Item Links={SERVİS} title="SERVİSLERİMİZ" />
-      <Item Links={KURUMSAL} title="KURUMSAL" />
+      <Item Links={Biz_Kimiz} title="BİZ KİMİZ" />
     </div>
   );
 };

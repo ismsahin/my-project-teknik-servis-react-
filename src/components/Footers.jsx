@@ -5,7 +5,7 @@ import { Icons } from "./Menus";
 
 const Footers = () => {
   return (
-    <footer className="bg-dark_mode text-white ps-4 border-t-2 border-indigo-600">
+    <footer className="bg-dark_mode text-white ps-4 border-t-2 border-cyan">
       
       <ItemsContainer/>
       

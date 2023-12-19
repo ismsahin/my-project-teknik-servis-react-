@@ -7,7 +7,7 @@ const SocialIcons = ({ Icons }) => {
         <span
           key={icon.name}
           className="p-2 cursor-pointer inline-flex items-center
-        rounded-full bg-indigo-600 text-dark_mode mx-1.5 text-xl hover:text-ferrari_red hover:bg-gray-700
+        rounded-full bg-cyan text-dark_mode mx-1.5 text-xl hover:text-ferrari_red hover:bg-gray-700
         duration-300 "
         >
           <ion-icon name={icon.name}></ion-icon>

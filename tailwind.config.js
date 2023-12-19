@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -10,13 +10,21 @@ export default {
         ferrari_red: '#ff2800',
         dark_mode: '#3d3d3d',
         sky: '##87CEEB',
-        cyan: '##00FFFF',
+        cyan: '#00E0D4',
+        white: '#EAEFF2',
+        red_orange: '#FF4500',
+        
+        
+
       },
       backgroundImage: {
         
        },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
+
 
