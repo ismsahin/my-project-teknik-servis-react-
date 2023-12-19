@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState , useRef} from 'react'
+import emailjs from '@emailjs/browser';
 
 const serviscagir = () => {
     const [formData, setFormData] = useState({
@@ -30,6 +31,38 @@ const serviscagir = () => {
             console.error('Error:', error);
         }
     };
+
+
+
+
+
+
+
+
+
+
+
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_as8a8vd', 'template_hvnrs9i', form.current, 'Y6JR9j6YyjUjseUnH')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+
+
+
+
+
+    
 
 
     return (
@@ -75,14 +108,31 @@ const serviscagir = () => {
             </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div className='grid md:grid-cols-2  md:gap-6'>
                 <div className=''>
-                    <form onSubmit={handleSubmit} id='contactForm' method='POST' className="md:max-w-xl max-w-sm  my-20 md:mr-0 mx-auto bg-dark_mode rounded-lg p-6">
+                    <form  ref={form} onSubmit={sendEmail} id='contactForm' method='POST' className="md:max-w-xl max-w-sm  my-20 md:mr-0 mx-auto bg-dark_mode rounded-lg p-6">
                         <div className="">
                             <div className="relative z-0 w-full mb-5 ">
                                 <input type="text"
                                     name="name"
-                                    value={formData.name}
+                                    
                                     onChange={handleChange}
                                     id="name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     placeholder=" " required />
@@ -93,7 +143,7 @@ const serviscagir = () => {
                         <div className="relative z-0 w-full mb-5 group">
                             <input type="email"
                                 name="email"
-                                value={formData.email}
+                                
                                 onChange={handleChange}
                                 id="email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                 placeholder=" " required />
@@ -104,16 +154,16 @@ const serviscagir = () => {
                         <div className="grid md:grid-cols-2 md:gap-6">
                             <div className="relative z-0 w-full mb-5 group">
                                 <input name="number"
-                                    value={formData.number}
+                                    
                                     onChange={handleChange}
-                                    type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    type="telefon" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     placeholder=" " required />
                                 <label for="floating_phone" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Tel no: (550 979 5160)</label>
                             </div>
 
                         </div>
                         <div className="relative z-0 w-full mb-5 group">
-                            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mesaj</label>
+                            <label for="message" class="block mb-2 text-sm font-medium text-red_orange ">Mesaj</label>
                             <textarea name="message"
                                 value={formData.message}
                                 onChange={handleChange}
