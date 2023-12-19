@@ -10,8 +10,8 @@ const anasayfa = () => {
   return (
     <>
       <div className='md:w-9/12 md:mx-auto'>
-        <AnasayfaSlider/>
-        <ServisDestek />
+      <AnasayfaSlider />
+        <ServisDestek />       
         <Guvenilirlik />
         <MusteriYorum />
       </div>

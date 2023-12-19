@@ -3,7 +3,7 @@ import React from 'react'
 const teknikServis = () => {
   return (
     <div className=' min-h-screen gap-4 md:mx-auto w-full grid grid-cols-12'>
-      <div className='col-span-4 bg-gray-300 my-auto rounded-xl '>
+      <div className='col-span-3 bg-gray-300 my-auto rounded-xl '>
       <div className='grid my-auto py-2 '>
                         <a href="tel:08508508558" className='text-white mx-auto w-4/5  bg-cyan font-bold rounded-lg text-sm xl:text-xl px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>HEMEN ARA</a>
                         <a href="tel:08508508558" className='text-white mx-auto w-4/5  bg-dark_mode font-bold rounded-lg text-sm xl:text-xl px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>0850 850 8550</a>
@@ -11,7 +11,7 @@ const teknikServis = () => {
         
       </div>
 
-      <div className='col-span-8 m-0 object-cover bg-cover bg-center xl:container  bg-center'>
+      <div className='col-span-9 m-0 object-cover bg-cover bg-center xl:container  bg-center'>
 
 
         <div className="  min-h-450 gap-4 flex-wrap flex justify-center items-center p-6">
@@ -37,7 +37,7 @@ const teknikServis = () => {
 
               <h2 className="font-bold text-lg mb-2 italic text-red_orange">Beyaz Eşya Servisi</h2>
 
-              <p className="text-sm text-gray-600">İhtiyacınız olan servis hizmetini Merkez Servisten alın, size en yakın servisi 30 dk içinde yönlendirelim.</p>
+              <p className="text-sm text-gray-600">İhtiyacınız olan servis hizmetini bizden alın, size en yakın uzman ekibi 30 dk içinde yönlendirelim.</p>
             </div>
           </div>
 
