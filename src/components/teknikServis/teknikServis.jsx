@@ -3,7 +3,7 @@ import React from 'react'
 const teknikServis = () => {
   return (
     <div className=' min-h-screen gap-4 md:mx-auto w-full grid grid-cols-12'>
-      <div className='col-span-4 bg-gray-600 my-auto rounded-xl '>
+      <div className='col-span-4 bg-gray-300 my-auto rounded-xl '>
       <div className='grid my-auto py-2 '>
                         <a href="tel:08508508558" className='text-white mx-auto w-4/5  bg-cyan font-bold rounded-lg text-sm xl:text-xl px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>HEMEN ARA</a>
                         <a href="tel:08508508558" className='text-white mx-auto w-4/5  bg-dark_mode font-bold rounded-lg text-sm xl:text-xl px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>0850 850 8550</a>

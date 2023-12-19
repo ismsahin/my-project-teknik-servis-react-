@@ -1,6 +1,11 @@
 import React, { useState , useRef} from 'react'
 import emailjs from '@emailjs/browser';
 
+
+
+
+
+
 const serviscagir = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -51,14 +56,14 @@ const serviscagir = () => {
     emailjs.sendForm('service_as8a8vd', 'template_hvnrs9i', form.current, 'Y6JR9j6YyjUjseUnH')
       .then((result) => {
           console.log(result.text);
+          alert('Kaydınız başarıyla alındı.');
       }, (error) => {
           console.log(error.text);
       });
   };
 
 
-
-
+  
 
 
 
@@ -100,8 +105,8 @@ const serviscagir = () => {
                         <div className='px-2 mt-0 xl:text-xl text-white  bg-dark_mode rounded-b-md bg-opacity-75 text-sm'> İhtiyacınız olan hehangi bir servis ihtiyacınız için en doğru çözüm için her zaman arayabilirsiniz. Sorularınızı yanıtlamak ve tamir için randevu oluşturmak için her zaman buradayız.
                         </div>
                         <div className='mx-auto me-0 my-0 grid xl:grid-cols-2 md:grid-cols-1'>
-                            <a href="tel:08508508558" className='text-white max-h-16  bg-indigo-600 font-medium rounded-lg text-sm xl:text-lg px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>HEMEN BİLGİ AL</a>
-                            <a href="tel:08508508558" className='text-white max-h-16  bg-gray-500 font-medium rounded-lg text-sm xl:text-lg px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>0850 850 8550</a></div>
+                            <a href="tel:08508508558" className='text-white max-h-16  bg-cyan font-medium rounded-lg text-sm xl:text-lg px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>HEMEN BİLGİ AL</a>
+                            <a href="tel:08508508558" className='text-white max-h-16  bg-dark_mode font-medium rounded-lg text-sm xl:text-lg px-5 py-4 text-center hover:bg-ferrari_red hover:drop-shadow-md transition duration-300 ease-in-out m-2'>0850 850 8550</a></div>
                     </div>
                 </div>
 
